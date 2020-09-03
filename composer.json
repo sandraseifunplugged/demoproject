@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "5.7.*",
+        "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "laravel/nova": "*"
     },
@@ -63,9 +63,10 @@
             "@php artisan key:generate --ansi"
         ]
     },
-    "repositories": [{
-        "type": "vcs",
-        "url": "git@github.com:unpluggedweb/laravel-nova.git"
-    }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:alifouly/laravel-nova-updated.git"
+        }
 ]
 }
