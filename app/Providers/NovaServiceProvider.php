@@ -70,6 +70,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     {
         return [
             new \Bolechen\NovaActivitylog\NovaActivitylog(),
+            new \PhpJunior\NovaLogViewer\Tool()
         ];
     }
 
